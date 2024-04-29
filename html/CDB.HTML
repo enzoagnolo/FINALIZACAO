@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de CDB com Juros Compostos</title>
+    <link rel="stylesheet" href="../css/cdb.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info-container">
+            <h1><b>O que é CDB?</b></h1>
+            <h3>O CDB, ou Certificado de Depósito Bancário, é um título de renda fixa emitido por instituições financeiras. Funciona como um empréstimo do investidor para o banco.
+                Ao adquirir um CDB, o investidor empresta dinheiro ao banco por um prazo determinado, e em troca, recebe uma remuneração na forma de juros.
+                Os juros podem ser pré ou pós-fixados, e a rentabilidade é geralmente superior à poupança. O CDB é considerado um investimento de baixo risco,
+                pois conta com a garantia do Fundo Garantidor de Créditos (FGC) para valores de até determinado limite. O prazo de vencimento e as condições
+                variam conforme o tipo de CDB escolhido.</h3>
+        </div>
+
+        <div class="info-container">
+            <h1><b>Como investir no CDB?</b></h1>
+            <h3>Escolha uma instituição financeira: Selecione um banco ou instituição financeira que ofereça CDBs.</h3>
+            <h3>1. Abra uma conta: Caso não tenha uma conta no banco escolhido, abra uma conta corrente ou poupança.</h3>
+            <h3>2. Avalie as opções: Consulte as opções de CDB disponíveis, considerando prazos, taxas de juros e modalidades de remuneração (pré ou pós-fixadas).</h3>
+            <h3>3. Realize o investimento: Após escolher o CDB desejado, invista o valor desejado, seguindo as orientações do banco.</h3>
+            <h3>4. Acompanhe seu investimento: Monitore periodicamente o desempenho do CDB, verificando eventuais mudanças nas taxas de juros ou no mercado financeiro.</h3>
+            <h3>5. Resgate no vencimento: Caso tenha escolhido um CDB com prazo determinado, aguarde o vencimento para resgatar o valor investido e os rendimentos.</h3>
+            <h3>6. Lembre-se de verificar as condições específicas de cada CDB e, se necessário, consulte um assessor financeiro para orientações personalizadas.</h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <form>
+            <h2>Simulador de CDB</h2>
+
+            <label for="principal">Capital Investido (R$):</label>
+            <input type="number" id="principal" required>
+
+            <label for="taxa">Taxa de Juros Anual (%):</label>
+            <input type="number" id="taxa" required>
+
+            <label for="periodo">Período de Investimento (em meses):</label>
+            <input type="number" id="periodo" required>
+
+            <h2>Resultado:</h2>
+            <p id="resultado"></p>
+            <button type="button" onclick="calcularCDB()">Calcular</button>
+        </form>
+
+        <a href="../html/O SITE INTEIRO.html" class="homepage-link"><b>Home Page</b></a>
+    </div>
+    <script src="../JavaScript/cdb.js"></script>
+</body>
+</html>

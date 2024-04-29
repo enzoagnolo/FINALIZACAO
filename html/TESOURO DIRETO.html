@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesouro Direto</title>
+    <link rel="stylesheet" href="../css/tesouro-direto.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Cabeçalho -->
+        <header>
+            <h1>Tesouro Direto</h1>
+        </header>
+
+        <!-- Seção: O que é o Tesouro Direto? -->
+        <section id="o-que-e">
+            <h2>O que é o Tesouro Direto?</h2>
+            <p>O Tesouro Direto é um programa do governo federal que permite a compra de títulos públicos pela internet.</p>
+        </section>
+
+        <!-- Seção: Como funciona o Tesouro Direto? -->
+        <section id="como-funciona">
+            <h2>Como funciona o Tesouro Direto?</h2>
+            <p>Para investir no Tesouro Direto, você precisa seguir alguns passos simples:
+                <ul>
+                    <li>Abra uma conta em uma corretora ou no próprio Tesouro Direto.</li>
+                    <li>Escolha o título que melhor se adapta aos seus objetivos de investimento.</li>
+                    <li>Realize a compra do título desejado.</li>
+                    <li>Acompanhe a evolução do seu investimento.</li>
+                </ul>
+            </p>
+        </section>
+
+        <!-- Seção: Simulador de Investimento -->
+        <section id="simulador">
+            <h2>Simulador de Investimento</h2>
+            <form id="simulador-form">
+                <label for="valor">Valor a investir (R$):</label>
+                <input type="number" id="valor" name="valor" required>
+
+                <label for="prazo">Prazo de aplicação (meses):</label>
+                <input type="number" id="prazo" name="prazo" required>
+
+                <label for="taxa">Taxa de juros (% a.a.):</label>
+                <input type="number" id="taxa" name="taxa" step="0.01" required>
+
+                <button type="submit">Calcular</button>
+            </form>
+            <div id="resultado"></div> 
+            <a href="../html/O SITE INTEIRO.html">Home page</a>
+        </section>
+
+        <!-- Rodapé -->
+        <footer>
+            <p>Para mais informações, visite o <a href="https://www.tesourodireto.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=Institucional&gad_source=1&gclid=Cj0KCQjw2a6wBhCVARIsABPeH1tGcgvZH7GKKqYKVDCT0IlPcvxQDDW4G2Yo4j1rKf9tWE4oLNC3gSsaAq8xEALw_wcB" target="_blank" >site oficial do Tesouro Direto</a>.</p>
+        </footer>
+    </div>
+    <script src="../JavaScript/tesouro-direto.js"></script>
+</body>
+</html>

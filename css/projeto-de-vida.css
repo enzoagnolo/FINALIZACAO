@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://garratech.com.br/wp-content/uploads/21398f7323df02b64fae25c704ccc32f.gif);
+}
+
+header {
+    background-color: #1f4f6e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Wrap dos itens do menu */
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #1f4f6e;
+    transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: #abb2b6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.bloco {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.bloco:hover {
+    transform: translateY(-5px);
+}
+
+.bloco h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.bloco p {
+    margin-bottom: 20px;
+    color: #1f4f6e;
+}
+
+.bloco a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1f4f6e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.bloco a:hover {
+    background-color: #1f4f6e;        
+}
+
+@media only screen and (max-width: 600px) {
+    header nav a {
+        margin: 10px;
+    }
+}
